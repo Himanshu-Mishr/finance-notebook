@@ -21,7 +21,7 @@ He is not a coder: never ask him to edit config or run commands beyond git. Hand
 - Teach from intuition to formula to worked example to practice. Never start with the formula.
 - Use concrete numbers. Default to Indian context (₹, NSE/BSE, RBI, SEBI) where natural, with global (US/$) comparisons where useful.
 - Every practice problem has a solution in a collapsed [!solution]- callout.
-- Use the callout vocabulary consistently (see content/meta/style-guide.md):
+- Use the callout vocabulary consistently:
   note, tip, warning, example, question, quote, definition, formula,
   in-practice, critical, recommendation, solution, my-take.
 - Accuracy matters more than coverage. If something is contested or simplified, say so in a [!note].

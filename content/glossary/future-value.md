@@ -15,4 +15,4 @@ $$FV = PV \times (1 + r)^n$$
 
 **Example.** ₹1,00,000 at 8% for 10 years, compounded yearly, becomes about ₹2,15,892.
 
-It is the reverse of [[present-value]], and relies on [[compound-interest]]. See [[01-time-value-of-money|Time Value of Money]].
+It is the reverse of [[present-value]], and relies on [[compound-interest]].

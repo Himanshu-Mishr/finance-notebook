@@ -15,4 +15,4 @@ $$PV = \frac{FV}{(1 + r)^n}$$
 
 **Example.** ₹1,10,000 due in one year, discounted at 8%, is worth about ₹1,01,852 today.
 
-It is the reverse of [[future-value]]. See [[01-time-value-of-money|Time Value of Money]] for the full build-up.
+It is the reverse of [[future-value]]. Part of the time value of money.

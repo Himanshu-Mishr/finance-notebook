@@ -14,4 +14,4 @@ created: 2026-10-02
 - Riskier cash flows are discounted at a higher rate.
 
 > [!note]
-> How to *choose* a discount rate (risk-free rate, cost of capital) is covered later in [[finance/04-valuation/index|Valuation]].
+> How to *choose* a discount rate (risk-free rate, cost of capital) is covered in a later note on valuation.

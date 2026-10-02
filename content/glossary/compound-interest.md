@@ -16,4 +16,4 @@ created: 2026-10-02
 | 2 | ₹1,16,000 | ₹1,16,640 |
 | 3 | ₹1,24,000 | ₹1,25,971 |
 
-The gap starts small and keeps widening. This is what drives [[future-value]]. More frequent compounding (monthly, daily) increases the result slightly; see [[01-time-value-of-money|Time Value of Money]].
+The gap starts small and keeps widening. This is what drives [[future-value]]. More frequent compounding (monthly, daily) increases the result slightly.
