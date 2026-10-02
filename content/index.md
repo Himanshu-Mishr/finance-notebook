@@ -5,7 +5,13 @@ tags:
   - status/learning
 ---
 
+```tradingview
+type: ticker
+symbols: NSE:NIFTY, NSE:BANKNIFTY, BSE:SENSEX, NSE:RELIANCE, NSE:TCS, NSE:HDFCBANK
+```
+
 Welcome. This is a personal notebook for learning how financial markets work, built up one idea at a time.
 
 - [[glossary/index|Glossary]]: one short note per term
+- [[tools/index|Tools]]: examples of the theme, charts and live market widgets
 - [[CHANGELOG|Changelog]]: what changed, and when

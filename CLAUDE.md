@@ -12,6 +12,7 @@ content/
   index.md        home page
   CHANGELOG.md    log, newest first
   glossary/       one short note per term (has its own index.md)
+  tools/          examples of the theme, ECharts charts and TradingView widgets (copy from here)
   assets/         images and SVG charts
 templates/topic-note.md   note template (outside content/, not published)
 ```
@@ -50,11 +51,17 @@ There is no `finance/` or `meta/` folder any more. New subjects or topics get a 
 ## Status tags
 status/seed (outline), status/learning (default for new notes), status/solid (only when he says he's got it).
 
+## Charts and widgets
+- **ECharts:** a code block tagged `echarts` holding strict JSON (no comments, no functions). Optional `"_height": 400`. Copy a pattern from content/tools/echarts-examples.md. Every chart gets a one-line italic caption below it. Never write a bare `[[x]]` in the JSON, it is read as a wikilink; keep arrays like `[ [1,2], [3,4] ]`.
+- **TradingView:** a code block tagged `tradingview` with `key: value` lines: `type` (chart, ticker, mini, info), `symbol` (EXCHANGE:TICKER such as NSE:RELIANCE), `symbols` for tickers, optional `interval`, `range`, `height`. See content/tools/tradingview-examples.md. Use it only for live market context on stocks and indices.
+- Both are drawn by quartz/plugins/transformers/widgets.ts and quartz/components/scripts/widgets.inline.ts. Do not edit those unless asked; log any change as **Site**.
+- Check the page in a browser before pushing when you add a new chart type.
+
 ## Theme
 Quartz default colour palette, Inter headings, Literata body, JetBrains Mono code. Changing it counts as a **Site** change.
 
 ## Don'ts
 - No Python. Any tooling must be Node.js.
-- No runtime JS chart libraries; use Mermaid or hand-written SVG.
+- Charts: use Apache ECharts for teaching charts, TradingView widgets for live stocks and market data, Mermaid for simple diagrams. No other chart libraries.
 - Don't change site config, layout or styling unless he asks. Log any such change as **Site** in the changelog.
 - Never push a build that fails locally.

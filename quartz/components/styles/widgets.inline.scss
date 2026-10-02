@@ -1,0 +1,44 @@
+.widget-block {
+  margin: 1.5rem 0;
+  width: 100%;
+  min-width: 0;
+}
+
+.echarts-box {
+  width: 100%;
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.widget-error {
+  border: 1px dashed #c62b3c;
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  color: #c62b3c;
+  font-size: 0.85rem;
+}
+
+.tv-box {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  overflow: hidden;
+
+  & .tradingview-widget-container,
+  & .tradingview-widget-container__widget {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.tv-credit {
+  font-size: 0.7rem;
+  color: var(--gray);
+  text-align: right;
+  margin-top: 0.2rem;
+}
+
+// previews (hover popovers) show nothing for live widgets
+.popover-inner .widget-block {
+  display: none;
+}
