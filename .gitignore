@@ -4,3 +4,7 @@ public/
 .DS_Store
 tsconfig.tsbuildinfo
 private/
+
+# Reference books stay on this computer only (copyrighted); only the list is published
+references/*
+!references/README.md

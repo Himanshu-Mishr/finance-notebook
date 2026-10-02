@@ -44,6 +44,12 @@ There is no `finance/` or `meta/` folder any more. New subjects or topics get a 
 - Frontmatter values containing a colon must be quoted (YAML), or the build fails.
 - Do not put ₹ inside `$...$` math (KaTeX has no glyph); write it outside the formula.
 
+## Voice and reference books
+- Follow STYLE.md for tone, structure and how ideas are explained. If it is still a skeleton, say so and ask Himanshu before inventing a voice.
+- Reference books live in references/ (see references/README.md for the list and file names). They are copyrighted and excluded from git: never copy them into content/, never commit them, never quote more than a short phrase.
+- Use the books for accuracy and for the way ideas are explained, then write in our own words. In "Go deeper" boxes, name the book and chapter to read.
+- When you read a book to improve STYLE.md, describe the voice in your own words and keep that file free of copied passages.
+
 ## My Take: protected area
 - The [!my-take] callouts are HIS voice. Never write opinions in them on his behalf.
 - New notes get a My Take section with a short italic prompt to guide him.
