@@ -53,7 +53,9 @@ status/seed (outline), status/learning (default for new notes), status/solid (on
 
 ## Charts and widgets
 - **ECharts:** a code block tagged `echarts` holding strict JSON (no comments, no functions). Optional `"_height": 400`. Copy a pattern from content/tools/echarts-examples.md. Every chart gets a one-line italic caption below it. Never write a bare `[[x]]` in the JSON, it is read as a wikilink; keep arrays like `[ [1,2], [3,4] ]`.
-- **TradingView:** a code block tagged `tradingview` with `key: value` lines: `type` (chart, ticker, mini, info), `symbol` (EXCHANGE:TICKER such as NSE:RELIANCE), `symbols` for tickers, optional `interval`, `range`, `height`. See content/tools/tradingview-examples.md. Use it only for live market context on stocks and indices.
+- **TradingView:** a code block tagged `tradingview` with `key: value` lines: `type` (chart, ticker, mini, info), `symbol` (EXCHANGE:TICKER such as TVC:GOLD), `symbols` for tickers, optional `interval`, `range`, `height`. See content/tools/tradingview-examples.md.
+- TradingView cannot embed NSE/BSE stocks (it says "only available on TradingView"). Use it for indices, gold, currencies and global stocks only.
+- **Indian stock price charts:** run `node scripts/price-chart.mjs TCS.NS 1y "TCS"` (Yahoo symbols: .NS for NSE, .BO for BSE, ^NSEI for Nifty 50) and paste the printed echarts block into the note. Add a caption, the data source and download date, and a link to the stock on TradingView. See content/tools/price-chart-example.md. It is a snapshot; refresh it when asked.
 - Both are drawn by quartz/plugins/transformers/widgets.ts and quartz/components/scripts/widgets.inline.ts. Do not edit those unless asked; log any change as **Site**.
 - Check the page in a browser before pushing when you add a new chart type.
 

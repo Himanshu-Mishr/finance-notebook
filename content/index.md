@@ -7,7 +7,7 @@ tags:
 
 ```tradingview
 type: ticker
-symbols: NSE:NIFTY, NSE:BANKNIFTY, BSE:SENSEX, NSE:RELIANCE, NSE:TCS, NSE:HDFCBANK
+symbols: NSE:NIFTY, NSE:BANKNIFTY, BSE:SENSEX, FX_IDC:USDINR, TVC:GOLD
 ```
 
 Welcome. This is a personal notebook for learning how financial markets work, built up one idea at a time.

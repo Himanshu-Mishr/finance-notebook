@@ -7,18 +7,21 @@ tags:
 
 A `tradingview` code block holds a few `key: value` lines. The `type` line picks the widget. Prices are live, and some exchange data is delayed by TradingView.
 
+> [!warning] Indian stocks cannot be embedded
+> TradingView does not allow NSE and BSE stocks (such as Reliance) in free embeds; the widget says "only available on TradingView". Use these widgets for indices, gold, currencies and global stocks. For Indian stock prices see [[tools/price-chart-example|Stock price chart example]].
+
 ## Ticker strip
 
 ````
 ```tradingview
 type: ticker
-symbols: NSE:NIFTY, NSE:BANKNIFTY, BSE:SENSEX, NSE:RELIANCE, NSE:TCS
+symbols: NSE:NIFTY, NSE:BANKNIFTY, BSE:SENSEX, FX_IDC:USDINR, TVC:GOLD
 ```
 ````
 
 ```tradingview
 type: ticker
-symbols: NSE:NIFTY, NSE:BANKNIFTY, BSE:SENSEX, NSE:RELIANCE, NSE:TCS
+symbols: NSE:NIFTY, NSE:BANKNIFTY, BSE:SENSEX, FX_IDC:USDINR, TVC:GOLD
 ```
 
 ## Full chart
@@ -28,7 +31,7 @@ Set `interval` to `D` (daily), `W` (weekly) or a number of minutes such as `60`.
 ````
 ```tradingview
 type: chart
-symbol: NSE:RELIANCE
+symbol: TVC:GOLD
 interval: D
 height: 520
 ```
@@ -36,7 +39,7 @@ height: 520
 
 ```tradingview
 type: chart
-symbol: NSE:RELIANCE
+symbol: TVC:GOLD
 interval: D
 height: 520
 ```
@@ -48,14 +51,14 @@ height: 520
 ````
 ```tradingview
 type: mini
-symbol: NSE:TCS
+symbol: FX_IDC:USDINR
 range: 12M
 ```
 ````
 
 ```tradingview
 type: mini
-symbol: NSE:TCS
+symbol: FX_IDC:USDINR
 range: 12M
 ```
 
@@ -64,14 +67,14 @@ range: 12M
 ````
 ```tradingview
 type: info
-symbol: NSE:INFY
+symbol: NASDAQ:AAPL
 ```
 ````
 
 ```tradingview
 type: info
-symbol: NSE:INFY
+symbol: NASDAQ:AAPL
 ```
 
 > [!note]
-> Symbols are written `EXCHANGE:TICKER`, for example `NSE:HDFCBANK`, `BSE:SENSEX` or `NASDAQ:AAPL`. Search a stock on tradingview.com to find its exact symbol.
+> Symbols are written `EXCHANGE:TICKER`, for example `BSE:SENSEX`, `TVC:GOLD` or `NASDAQ:AAPL`. Search a stock on tradingview.com to find its exact symbol.

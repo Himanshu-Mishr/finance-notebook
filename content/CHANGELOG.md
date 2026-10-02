@@ -4,6 +4,7 @@ description: A running log of everything added or changed in this notebook, newe
 ---
 
 ## 2026-10-02
+- **Added** [[tools/price-chart-example|Stock price chart example]]: real Reliance price chart; TradingView cannot embed Indian stocks
 - **Site** Added [[tools/index|Tools]] folder with examples of the theme, ECharts charts and TradingView widgets
 - **Site** Charts: Apache ECharts blocks and TradingView widgets now work in any note; live ticker strip on the home page
 - **Site** Removed the `finance` and `meta` folders; new top-level [[glossary/index|Glossary]] folder
