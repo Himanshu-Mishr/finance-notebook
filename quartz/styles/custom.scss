@@ -125,3 +125,8 @@
 article {
   line-height: 1.7;
 }
+
+// Taller local graph, closer to an Obsidian graph panel
+.graph > .graph-outer {
+  height: 300px;
+}
