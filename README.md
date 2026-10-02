@@ -4,7 +4,7 @@ Live site: https://himanshu-mishr.github.io/finance-notebook/
 
 **To publish:** `git add . && git commit -m "message" && git push` — the site updates in about 1–2 minutes. That's all.
 
-**To add content:** open Claude Code in this folder and say what you're learning.
+**To add content:** open Claude Code or Codex in this folder and say what you're learning. Both read the rules in `AGENTS.md` (Claude Code reaches it through `CLAUDE.md`).
 
 **To write your own take:** open the note's `.md` file, find "My Take", type under it, then push.
 
