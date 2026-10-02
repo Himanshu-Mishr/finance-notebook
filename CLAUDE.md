@@ -6,12 +6,23 @@ Live site: https://himanshu-mishr.github.io/finance-notebook/
 He is learning financial markets and analysis by doing, not by reading a textbook cover to cover.
 He is not a coder: never ask him to edit config or run commands beyond git. Handle it yourself.
 
+## Current structure
+```
+content/
+  index.md        home page
+  CHANGELOG.md    log, newest first
+  glossary/       one short note per term (has its own index.md)
+  assets/         images and SVG charts
+templates/topic-note.md   note template (outside content/, not published)
+```
+There is no `finance/` or `meta/` folder any more. New subjects or topics get a new top-level folder in `content/` with an `index.md` listing its notes in order. File names are `kebab-case.md`, numbered where order matters.
+
 ## How a session works
 1. He tells you a topic, or a question he ran into.
 2. Check existing notes first (search content/), so you extend and link rather than duplicate.
 3. Write or extend notes using templates/topic-note.md. Create glossary notes for new terms.
 4. Link generously with [[wikilinks]]: to the glossary, to prerequisites, to related notes.
-5. Update the section index.md if you added a note.
+5. Update the index.md of the folder you added to (the glossary index lists every term).
 6. Add an entry to content/CHANGELOG.md.
 7. Run `npx quartz build`. Fix all errors.
 8. Commit with a clear message ("Add: Time Value of Money"), then push to main.
@@ -21,7 +32,7 @@ He is not a coder: never ask him to edit config or run commands beyond git. Hand
 - Teach from intuition to formula to worked example to practice. Never start with the formula.
 - Use concrete numbers. Default to Indian context (₹, NSE/BSE, RBI, SEBI) where natural, with global (US/$) comparisons where useful.
 - Every practice problem has a solution in a collapsed [!solution]- callout.
-- Use the callout vocabulary consistently:
+- Use the callout vocabulary consistently (all styles live in quartz/styles/custom.scss):
   note, tip, warning, example, question, quote, definition, formula,
   in-practice, critical, recommendation, solution, my-take.
 - Accuracy matters more than coverage. If something is contested or simplified, say so in a [!note].
@@ -38,6 +49,9 @@ He is not a coder: never ask him to edit config or run commands beyond git. Hand
 
 ## Status tags
 status/seed (outline), status/learning (default for new notes), status/solid (only when he says he's got it).
+
+## Theme
+Quartz default colour palette, Inter headings, Literata body, JetBrains Mono code. Changing it counts as a **Site** change.
 
 ## Don'ts
 - No Python. Any tooling must be Node.js.
