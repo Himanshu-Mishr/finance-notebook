@@ -4,6 +4,7 @@ description: A running log of everything added or changed in this notebook, newe
 ---
 
 ## 2026-10-02
+- **Site** Theme: Paper & Ink palette (cream, ink-brown, burgundy accent) with Literata body text
 - **Added** [[01-time-value-of-money|Time Value of Money]]: compounding, discounting, 3 worked problems
 - **Added** glossary: [[present-value]], [[future-value]], [[compound-interest]], [[discount-rate]]
 - **Added** section pages for all seven finance sections (planned topics marked as seeds)
