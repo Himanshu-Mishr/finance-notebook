@@ -47,6 +47,9 @@ There is no `finance/` or `meta/` folder any more. New subjects or topics get a 
 ## Glossary notes
 Each glossary note has: a definition callout, **Explain**, a formula callout where one applies, **Data** (real numbers with a source line), **Example** (a worked calculation the reader can redo), optional chart, My Take, Related. The first batch uses Reliance Industries from Screener.in (consolidated, viewed 3 Oct 2026) as the running example. Check every number reconciles before writing it, and say when something is your inference.
 
+## Glossary notes
+Each glossary note has: a definition callout, **Explain**, a formula callout where one applies, **Data** (real numbers with a source line), **Example** (a worked calculation the reader can redo), optional chart, My Take, Related. The first batch uses Reliance Industries from Screener.in (consolidated, viewed 3 Oct 2026) as the running example. Check every number reconciles before writing it, and say when something is your inference.
+
 ## Voice and reference books
 - Follow STYLE.md for tone, structure and how ideas are explained. If it is still a skeleton, say so and ask Himanshu before inventing a voice.
 - Reference books live in references/ (see references/README.md for the list and file names). They are copyrighted and excluded from git: never copy them into content/, never commit them, never quote more than a short phrase.

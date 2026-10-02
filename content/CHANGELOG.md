@@ -7,6 +7,10 @@ description: A running log of everything added or changed in this notebook, newe
 - **Added** 48 glossary terms from Reliance's Screener page, each with an explanation, the Reliance numbers and a worked example: [[glossary/index|see the Glossary]]
 - **Added** two charts in the glossary: a profit waterfall ([[profit-and-loss]]) and an ownership chart ([[shareholding-pattern]])
 
+## 2026-10-03
+- **Added** 48 glossary terms from Reliance's Screener page, each with an explanation, the Reliance numbers and a worked example: [[glossary/index|see the Glossary]]
+- **Added** two charts in the glossary: a profit waterfall ([[profit-and-loss]]) and an ownership chart ([[shareholding-pattern]])
+
 ## 2026-10-02
 - **Site** Added a private reference-books folder and a STYLE.md voice guide (not published on the site)
 - **Site** Project rules moved to AGENTS.md so Claude Code and Codex share one rulebook
