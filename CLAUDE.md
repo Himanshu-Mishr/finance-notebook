@@ -2,7 +2,7 @@
 
 ## What this repo is
 Himanshu's personal learning notebook, published with Quartz to GitHub Pages.
-Live site: https://mishr.co/finance-notebook/
+Live site: https://himanshu-mishr.github.io/finance-notebook/
 He is learning financial markets and analysis by doing, not by reading a textbook cover to cover.
 He is not a coder: never ask him to edit config or run commands beyond git. Handle it yourself.
 

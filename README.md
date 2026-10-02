@@ -1,6 +1,6 @@
 # Finance Notebook
 
-Live site: https://mishr.co/finance-notebook/
+Live site: https://himanshu-mishr.github.io/finance-notebook/
 
 **To publish:** `git add . && git commit -m "message" && git push` — the site updates in about 1–2 minutes. That's all.
 
@@ -15,4 +15,3 @@ Live site: https://mishr.co/finance-notebook/
 ---
 Built with [Quartz v4](https://quartz.jzhao.xyz). Changes from the original brief: the `pageTitleSuffix`/analytics were removed, and the unused social-card (OG image) generator was turned off to keep builds fast and offline-safe.
 
-Note: your GitHub account uses the custom domain `mishr.co`, so GitHub serves this project at `mishr.co/finance-notebook` rather than `himanshu-mishr.github.io/finance-notebook`.
