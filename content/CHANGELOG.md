@@ -4,6 +4,7 @@ description: A running log of everything added or changed in this notebook, newe
 ---
 
 ## 2026-10-03
+- **Site** Added Google Analytics (tag G-ZKXXZ2XT4Q) via Quartz's built-in analytics setting
 - **Added** 48 glossary terms from Reliance's Screener page, each with an explanation, the Reliance numbers and a worked example: [[glossary/index|see the Glossary]]
 - **Added** two charts in the glossary: a profit waterfall ([[profit-and-loss]]) and an ownership chart ([[shareholding-pattern]])
 

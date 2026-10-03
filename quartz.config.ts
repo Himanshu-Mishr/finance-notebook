@@ -12,7 +12,10 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: {
+      provider: "google",
+      tagId: "G-ZKXXZ2XT4Q",
+    },
     locale: "en-US",
     baseUrl: "himanshu-mishr.github.io/finance-notebook",
     ignorePatterns: ["private", "templates", ".obsidian"],
